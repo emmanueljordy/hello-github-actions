@@ -14,9 +14,8 @@ jobs:
       - uses: actions/checkout@v1
 
       - uses: ./action-a
-
-with:
-  MY_NAME: "Mona"
+        with:
+          MY_NAME: "Mona"
 
 
 
