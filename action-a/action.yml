@@ -12,14 +12,12 @@ inputs:
 
      required: true
 
-     default: "World"
-	
+     default: "World"	
 runs:
 	
   using: "docker"
 
-  image: "Dockerfile"
-		
+  image: "Dockerfile"		
 branding:
 
   icon: "mic"
